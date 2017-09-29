@@ -14,6 +14,13 @@ $(function() {
   });
 });
 
+
+// $('#portfolio-nav-link').click(function() {
+//   document.querySelector('#before-portfolio').scrollIntoView({
+//     behavior: 'smooth'
+//   })
+// })
+
 window.sr = ScrollReveal();
   sr.reveal('.navbar', {
     duration: 2000,

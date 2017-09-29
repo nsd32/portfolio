@@ -20,7 +20,8 @@ p {
 
 .navbar {
   /*background-color: #fff !important;*/
-  background-color: transparent !important;
+  /*background-color: transparent !important;*/
+  background-image: url('../img/background-image.png');
   border: 0;
   font-family: Poppins;
 }
