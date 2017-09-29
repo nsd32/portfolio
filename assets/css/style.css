@@ -132,6 +132,10 @@ hr {
   color: blue;
 }
 
+.project-card {
+  max-height: 300px;
+}
+
 
 
 
