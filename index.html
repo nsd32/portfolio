@@ -33,14 +33,14 @@
       <div class="container">
       	<div class="row">
 
-      	  <div class="col-md-6">
-      	  	<div class="showcase-left">
+      	  <div class="col-md-5">
+      	  	<div class="about-left">
       	  	  <img src="assets/img/portfolioPic.jpg" class="rounded-circle">
       	  	</div>
       	  </div> <!-- column -->
 
       	  <div class="col-md-6">
-      	  	<div class="showcase-right">
+      	  	<div class="about-right">
               <h1>About</h1>
               <p>Hi, my name is Nick and I'm a full stack web developer. I have a bachelors degree in Finance from Metropolitan State University of Denver and am earning a certificate in full stack web development from Denver University. In my free time I enjoy playing golf, basketball, and hanging out with my family. </p>
               <br />
@@ -77,7 +77,7 @@
       	</div> 
       </div> 
     </section> -->
-    <hr>
+    <hr />
     <div id="portfolio-title">
       <h1>Portfolio</h1>
     </div>
@@ -85,7 +85,7 @@
       <div class="container">
       	<div class="row">
       	  <div class="col-md-6">
-      	  	<div class="info-left">
+      	  	<div class="project-left">
               <div class="project">
       	  	  <div class="card bg-dark text-white">
                 <img class="card-img" src="http://via.placeholder.com/450x200" alt="Card image">
@@ -111,7 +111,7 @@
       	  	</div>
       	  </div> <!-- column -->
       	  <div class="col-md-6">
-      	  	<div class="info-right">
+      	  	<div class="project-right">
               <div class="project">
       	  	  <div class="card bg-dark text-white">
                 <img class="card-img" src="http://via.placeholder.com/450x200" alt="Card image">
@@ -140,11 +140,12 @@
       </div> <!-- container -->
     </section>
 
+    <hr />
 
     <section id="contact">
       <div class="container">
       	<div class="row">
-      	  <div class="col-sm-6">
+      	  <!-- <div class="col-sm-6">
       	  	<form action="mailto:nickdev32@gmail.com" method="push" enctype="text/plain">
               <div class="form-group">
                 <label>Name: </label>
@@ -160,108 +161,60 @@
               </div>
               <button class="btn btn-default">Submit</button>
             </form>
-      	  </div>
-      	  <div class="col-sm-6">
+      	  </div> -->
+          
+      	  <div class="col-sm-12">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title text-center">Connect with Me</h3>
+                <h3 class="panel-title text-center">Contact</h3>
+                <a href="mailto:nickdev32@gmail.com" class="contact-info"><h6>Email: nickdev32@gmail.com</h6></a>
+                <a href="tel:7205187222" class="contact-info"><h6>Phone: (720) 518-7222</h6></a>
               </div>
               <div class="panel-body">
                 <div class="row">
-              
-                  <div class="col-md-3 col-6">
+
+                  <div class="col-sm-12">
+
+                  <div class="social-link" id="gmail">
+                    <a href="mailto:nickdev32@gmail.com"><img src="assets/img/email.png" class="img-responsive contact-links" alt="nickdev32@gmail.com"></a>
+                  </div>
+
+                  <div class="social-link">
                     <a href="https://github.com/nsd32" target="_blank"><img src="assets/img/github.png" class="img-responsive contact-links" alt="github"></a>
                   </div>
 
-                  <div class="col-md-3 col-6">
+                  <div class="social-link">
                     <a href="https://www.linkedin.com/in/nick-devereaux-94940212a/" target="_blank"><img src="assets/img/linkedin.png" class="img-responsive contact-links" alt="linkedin"></a>
                   </div>
                   
-                  <div class="col-md-3 col-6">
+                  <div class="social-link">
                     <a href="https://stackoverflow.com/users/6562319/nsd32" target="_blank"><img src="assets/img/stackoverflow.png" class="img-responsive contact-links" alt="stackoverflow"></a>
                   </div>
 
-                  <div class="col-md-3 col-6">
+                  <div class="social-link">
                     <a href="https://twitter.com/dreaux32" target="_blank"><img src="assets/img/twitter.png" class="img-responsive contact-links" alt="twitter"></a>
+                  </div>
+
                   </div>
               
                 </div>
               </div>
             </div>
           </div>
+          
       	</div>
       </div>
     </section>
 
     <footer>
-    	<p class="text-center">Nick Devereaux Copyright &copy; 2017</p>
+    	<p class="text-center">Copyright &copy; 2017</p>
     </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	
-  <script>
-  	window.sr = ScrollReveal();
-  	sr.reveal('.navbar', {
-  	  duration: 2000,
-  	  origin: 'bottom'
-  	});
-  	sr.reveal('.showcase-left', {
-  	  duration: 2000,
-  	  origin: 'top',
-  	  distance: '300px'
-  	});
-  	sr.reveal('.showcase-right', {
-  	  duration: 2000,
-  	  origin: 'right',
-  	  distance: '300px'
-  	});
-  	// sr.reveal('.btn', {
-  	//   duration: 2000,
-  	//   delay: 2000,
-  	//   origin: 'bottom',
-  	// });
-  	sr.reveal('#portfolio div', {
-  	  duration: 2000,
-  	  origin: 'bottom',
-  	});
-  	sr.reveal('.info-left', {
-  	  duration: 2000,
-  	  origin: 'left',
-  	  distance: '300px',
-  	  viewFactor: 0.2
-  	});
-  	sr.reveal('.info-right', {
-  	  duration: 2000,
-  	  origin: 'right',
-  	  distance: '300px',
-  	  viewFactor: 0.2
-  	});
-    sr.reveal('#portfolio-title', {
-      duration: 2000,
-      origin: 'bottom',
-      viewFactor: 0.2
-    });
-  </script>
-  <script>
-    $(function() {
-      // Smooth Scrolling
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-    });
-    </script>
+  <script src="assets/javascript/app.js"></script>
 
 </body>
 </html>
