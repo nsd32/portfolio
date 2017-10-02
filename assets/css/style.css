@@ -136,6 +136,20 @@ hr {
   max-height: 300px;
 }
 
+.git-repo {
+  color: #003366;
+}
+
+.git-repo:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) { 
+  .project-card {
+    height: 300px;
+  } 
+}
 
 
 
